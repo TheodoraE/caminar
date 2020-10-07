@@ -75,4 +75,49 @@ header p{
 }
 /* Fin Section 2 */
 
-/* Section 3 :  */
+/* Section 3 : Gallerie */
+.Bmarine{
+    background-color: rgb(21, 25, 36);
+    margin: 0% 16%;
+    padding: 5%;
+}
+    /* Titre 2 */
+.titre2{
+    text-align: center;
+    background-color: rgb(1, 5, 15);
+    padding: 15px;
+}
+.titre2>h2{
+    color: white;
+}
+.titre2>p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(119, 111, 111);
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+}
+.titre2>p::before{
+    content: "";
+    position: absolute;
+    text-align: center;
+    width: 110px;
+    height: 1px;
+    margin-top: -12px;
+    background-color: rgb(119, 111, 111);
+}
+    /* Gallerie */
+.gallerie1{
+    display: flex;
+}
+.gallerie1 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallerie1 img{
+    width: 100%;
+}
+/* Fin Section 3 */
+
