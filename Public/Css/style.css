@@ -3,4 +3,26 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* Header */
+header{
+    text-align: center;
+    color: white;
+    line-height: 1;
+    border: white solid;
+}
+.headerTitre{
+    margin: 70px 0px;
+}
+header h1{
+    font-size: 65px;
+    margin-bottom: 0%;
+}
+header p{
+    font-weight: lighter;
+    margin-top: 0%;
+}
+/* Fin Header */
+
