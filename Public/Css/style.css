@@ -121,3 +121,22 @@ header p{
 }
 /* Fin Section 3 */
 
+/* Section 4 */
+.container{
+    margin: 0% 16%;
+}
+.flex{
+    display: flex;
+}
+.vide{
+    background-color: rgb(248, 242, 232);
+    padding-top: 5%;
+}
+.description1{
+    background-color: white;
+}
+.description1>div{
+    padding: 7%;
+    margin: 9%;
+    margin-bottom: 0%;
+}
