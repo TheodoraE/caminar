@@ -6,6 +6,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.boxShadowT{
+    box-shadow: 0px 0px 10px 0px black;
+}
+.boxShadowLR{
+
+}
+.boxShadowB{
+
+}
+
 /* Header */
 header{
     text-align: center;
@@ -131,7 +141,9 @@ header p{
 }
 .Img{
     flex: 1;
+    width: 50%;
 }
+
 .vide{
     background-color: rgb(248, 242, 232);
     padding-top: 5%;
@@ -152,6 +164,7 @@ header p{
 .description2{
     background-color: rgb(21, 25, 36);
     flex: 1;
+    width: 50%;
 }
 .description2>div{
     padding: 7%;
@@ -164,6 +177,14 @@ header p{
 }
 .description2 p{
     color: rgb(119, 111, 111);
+}
+.Img07{
+    flex: 1;
+    width: 50%;
+    padding: 0%;
+}
+.Img07>img{
+    width: 100%;
 }
 /* Fin Section 5 */
 
@@ -187,11 +208,12 @@ footer{
 }
 .icons i{
     margin: 10px;
-    size: 20px 20px;
+    font-size: 30px;
 }
-.copyright{
+.copyright p{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 0%;
 }
 /* Fin Footer */
