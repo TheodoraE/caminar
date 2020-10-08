@@ -170,3 +170,28 @@ header p{
 
 /* Section 6 */
 /* Même chose que section 4 */
+
+/* Footer */
+footer{
+    color: rgb(119, 111, 111);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+}
+.icons i{
+    margin: 10px;
+    size: 20px 20px;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* Fin Footer */
